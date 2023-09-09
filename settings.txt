@@ -1,0 +1,9 @@
+odrv0.axis0.encoder.config.cpr = 4096
+odrv0.axis0.motor.config.pole_pairs = 4
+odrv0.axis0.motor.config.current_lim = 5
+odrv0.axis0.controller.config.vel_limit = 25
+odrv0.config.enable_brake_resistor = True
+odrv0.axis0.config.startup_motor_calibration = True
+odrv0.axis0.config.startup_encoder_offset_calibration = True
+odrv0.axis0.config.startup_closed_loop_control = True
+odrv0.axis0.controller.config.control_mode = CONTROL_MODE_VELOCITY_CONTROL
